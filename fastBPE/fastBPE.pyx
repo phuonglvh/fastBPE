@@ -4,7 +4,7 @@
 from libcpp.vector cimport vector
 from libcpp.string cimport string
 
-cdef extern from "fastBPE.hpp" namespace "fastBPE":
+cdef extern from "fastBPE.cpp" namespace "fastBPE":
     cdef cppclass BPEApplyer:
         BPEApplyer(const string& codes_path, const string& vocab_path)
         vector[string] apply(vector[string]& sentences)

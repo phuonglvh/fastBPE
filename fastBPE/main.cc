@@ -1,4 +1,4 @@
-#include "fastBPE.hpp"
+#include "fastBPE.cpp"
 
 using namespace std;
 using namespace fastBPE;
